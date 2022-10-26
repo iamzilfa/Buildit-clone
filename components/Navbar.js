@@ -6,8 +6,8 @@ const Navbar = () => {
         <p className="not-italic font-bold text-2xl text-[#486A6F]">Buildit</p>
       </div>
       <div>
-        <ul className="flex items-center gap-4">
-          <li className="not-italic font-medium text-base leading-8 text-gray-600">About</li>
+        <ul className="flex items-center space-x-10">
+          <a className="not-italic font-medium text-base leading-8 text-gray-600">About</a>
           <li className="not-italic font-medium text-base leading-8 text-gray-600">Services </li>
           <li className="not-italic font-medium text-base leading-8 text-gray-600">Projects</li>
           <li className="not-italic font-medium text-base leading-8 text-gray-600">Contact</li>

@@ -4,7 +4,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <div className='flex flex-col gap-y-20'>
     <Navbar />
       <Component {...pageProps} />
     <Footer />
