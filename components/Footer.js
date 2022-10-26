@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <div className="h-full bg-gradient-to-r from-[#486A6F] to-[#4397A4]">
