@@ -1,5 +1,6 @@
 import Link from "next/link";
-const Projects = () => {
+
+const Services = () => {
   return (
     <div className="text-center flex flex-col items-center space-y-5">
       <h1 className="text-7xl font-bold">Oops...</h1>
@@ -14,4 +15,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Services;
