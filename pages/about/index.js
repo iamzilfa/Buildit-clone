@@ -1,16 +1,20 @@
 const About = () => {
   return (
-    <div>
-      <header>
-        <div className="grid grid-cols-2">
-          <div>
-            <img src="/img/Rectangle 151.png" alt="" />
-            <img src="/img/Rectangle 152.png" alt="" />
+    <div className="flex flex-col gap-y-40 ">
+      <header className="">
+        <div className="grid grid-cols-2 items-center">
+          <div className="flex items-center justify-center relative">
+            <div>
+              <img src="/img/Rectangle 152.png" alt="" />
+            </div>
+            <div className="absolute bottom-0 translate-x-[50%] translate-y-[25%]">
+              <img src="/img/Rectangle 151.png" alt="" />
+            </div>
           </div>
-          <div>
-            <p>About us</p>
-            <h2>Owner and investor with a reputation</h2>
-            <p>
+          <div className="flex flex-col space-y-7 pr-32">
+            <p className="not-italic font-medium text-base leading-8 text-teal-400">About us</p>
+            <h2 className="not-italic font-bold text-4xl text-gray-700">Owner and investor with a reputation</h2>
+            <p className="not-italic font-medium text-base leading-8 text-gray-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit
               sem, vestibulum sed leo eu, malesuada pharetra mauris. Integer
               rhoncus, eros vel euismod tempor, ipsum magna tristique nisi, quis
@@ -24,11 +28,11 @@ const About = () => {
 
       <main className="flex flex-col gap-y-20">
         <div className="flex flex-col gap-y-20">
-          <div className="flex flex-col items-center">
-            <p>Statistics</p>
-            <p>Development in numbers</p>
+          <div className="flex flex-col items-center space-y-5">
+            <p className="not-italic font-medium text-base leading-8 text-center text-teal-400">Statistics</p>
+            <p className="not-italic font-bold text-4xl text-center text-gray-700">Development in numbers</p>
           </div>
-          <div className="grid grid-cols-3 ">
+          <div className="flex items-center justify-center space-x-32 ">
             <div className="flex gap-10 items-center">
               <div className="w-16 h-16 bg-gray-600 rounded">
                 <img src="/icons/Icon (23).svg" alt="" />

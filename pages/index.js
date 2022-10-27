@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <header>
+      <header className="px-32">
         <div className="grid grid-cols-2 items-center">
           <div>
             <div>

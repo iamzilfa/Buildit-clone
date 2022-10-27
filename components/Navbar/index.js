@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between px-32">
+    <div className="flex items-center justify-between px-32 pt-7">
       <div className="flex items-center gap-4">
         <div className="flex flex-col justify-center items-center p-2 w-12 h-12 gap-2.5 rounded-full bg-[#4397A4]"></div>
         <Link href="/" className="not-italic font-bold text-2xl text-[#486A6F]">Buildit</Link>
