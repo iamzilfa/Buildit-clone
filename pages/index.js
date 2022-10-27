@@ -38,21 +38,21 @@ export default function Home() {
           <h2>Innovative Execution</h2>
           <div className="grid grid-cols-3">
             <div>
-              <div className="flex flex-row justify-center items-center p-2 w-16 h-16 bg-[#678C92] gap-1">
+              <div className="flex flex-row justify-center items-center p-2 w-16 h-16 bg-gray-500 gap-1">
                 <img src="icons/Icon (17).svg" alt="" />
               </div>
               <h2>Featured Listing</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>
             <div>
-              <div className="flex flex-row justify-center items-center p-2 w-16 h-16 bg-[#678C92] gap-1">
+              <div className="flex flex-row justify-center items-center p-2 w-16 h-16 bg-gray-500 gap-1">
                 <img src="icons/Icon (18).svg" alt="" />
               </div>
               <h2>Available Properties</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>
             <div>
-              <div className="flex flex-row justify-center items-center p-2 w-16 h-16 bg-[#678C92] gap-2">
+              <div className="flex flex-row justify-center items-center p-2 w-16 h-16 bg-gray-500 gap-2">
                 <img src="icons/Icon (19).svg" alt="" />
               </div>
               <h2>In the News</h2>
