@@ -9,10 +9,10 @@ const Navbar = () => {
       </div>
       <div>
         <ul className="flex items-center space-x-10">
-          <Link href="/about" className="not-italic font-medium text-base leading-8 text-gray-600">About</Link>
-          <Link href="/services"  className="not-italic font-medium text-base leading-8 text-gray-600">Services </Link>
-          <Link href="/projects"  className="not-italic font-medium text-base leading-8 text-gray-600">Projects</Link>
-          <Link href="/contact"  className="not-italic font-medium text-base leading-8 text-gray-600">Contact</Link>
+          <Link href="/about/" className="not-italic font-medium text-base leading-8 text-gray-600">About</Link>
+          <Link href="/services/"  className="not-italic font-medium text-base leading-8 text-gray-600">Services </Link>
+          <Link href="/projects/"  className="not-italic font-medium text-base leading-8 text-gray-600">Projects</Link>
+          <Link href="/contact/"  className="not-italic font-medium text-base leading-8 text-gray-600">Contact</Link>
         </ul>
       </div>
         <div>
