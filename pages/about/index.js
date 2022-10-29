@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div className="flex flex-col gap-y-40 ">
-      <header className="">
+    <div className="">
+      <header className="bg-newColor pt-60 pb-48">
         <div className="grid grid-cols-2 items-center">
           <div className="flex items-center justify-center relative">
             <div>
@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div className="flex flex-col space-y-7 pr-32">
             <p className="not-italic font-medium text-base leading-8 text-teal-400">About us</p>
-            <h2 className="not-italic font-bold text-4xl text-gray-700">Owner and investor with a reputation</h2>
+            <h2 className="not-italic font-bold text-4xl text-textGray">Owner and investor with a reputation</h2>
             <p className="not-italic font-medium text-base leading-8 text-gray-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit
               sem, vestibulum sed leo eu, malesuada pharetra mauris. Integer
@@ -26,38 +26,38 @@ const About = () => {
         </div>
       </header>
 
-      <main className="flex flex-col gap-y-20">
-        <div className="flex flex-col gap-y-20">
+      <main className="flex flex-col gap-y-20 bg-aliceBlue pt-40">
+        <div className="flex flex-col gap-y-40">
           <div className="flex flex-col items-center space-y-5">
             <p className="not-italic font-medium text-base leading-8 text-center text-teal-400">Statistics</p>
-            <p className="not-italic font-bold text-4xl text-center text-gray-700">Development in numbers</p>
+            <p className="not-italic font-bold text-4xl text-center text-textGray">Development in numbers</p>
           </div>
-          <div className="flex items-center justify-center space-x-32 ">
+          <div className="flex items-center justify-center space-x-32 bg-aboutBlue mx-52 py-10">
             <div className="flex gap-10 items-center">
-              <div className="w-16 h-16 bg-gray-600 rounded">
+              <div className="w-16 h-16 bg-lightGray rounded">
                 <img src="/icons/Icon (23).svg" alt="" />
               </div>
-              <div>
-                <p>200</p>
-                <p>Number</p>
+              <div className="flex flex-col space-y-1">
+                <p className="font-bold text-4xl text-textGray">200</p>
+                <p className="font-bold text-base leading-5 tracking-widest text-lightGray">Number</p>
               </div>
             </div>
-            <div className="flex gap-10 items-center">
-              <div className="w-16 h-16 bg-gray-600 rounded">
+            <div className="flex gap-10 items-center border border-l-textGray pl-14">
+              <div className="w-16 h-16 bg-lightGray rounded">
                 <img src="/icons/Icon (24).svg" alt="" />
               </div>
-              <div>
-                <p>70</p>
-                <p>Number</p>
+              <div className="flex flex-col space-y-1">
+                <p className="font-bold text-4xl text-textGray">70</p>
+                <p className="font-bold text-base leading-5 tracking-widest text-lightGray">Number</p>
               </div>
             </div>
-            <div className="flex gap-10 items-center">
-              <div className="w-16 h-16 bg-gray-600 rounded gap-2.5">
+            <div className="flex gap-10 items-center border border-l-textGray pl-14">
+              <div className="w-16 h-16 bg-lightGray rounded gap-2.5">
                 <img src="/icons/Icon (25).svg" alt="" />
               </div>
-              <div>
-                <p>20</p>
-                <p>Number</p>
+              <div className="flex flex-col space-y-1">
+                <p className="font-bold text-4xl text-textGray">20</p>
+                <p className="font-bold text-base leading-5 tracking-widest text-lightGray">Number</p>
               </div>
             </div>
           </div>
@@ -142,14 +142,14 @@ const About = () => {
           </div>
 
           <div className="flex items-center justify-between border-t border-b h-48 mx-28 border-b-gray-600 border-t-gray-600 border-opacity-80">
-            <h2 className="not-italic font-bold text-4xl text-gray-700">
+            <h2 className="not-italic font-bold text-4xl text-textGray">
               Call us
             </h2>
             <div className="flex items-center gap-5">
               <button className="flex flex-row justify-center items-center py-4 px-12 bg-teal-600 rounded gap-2.5 not-italic font-bold text-base leading-5 text-center text-gray-100">
                 Call
               </button>
-              <button className="flex flex-row justify-center items-center bg-indigo-200 rounded-sm w-10 h-5 not-italic font-bold text-base leading-5 text-center text-gray-700 gap-2.5 py-4 px-12">
+              <button className="flex flex-row justify-center items-center bg-indigo-200 rounded-sm w-10 h-5 not-italic font-bold text-base leading-5 text-center text-textGray gap-2.5 py-4 px-12">
                 Email
               </button>
             </div>

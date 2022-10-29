@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="h-full bg-gradient-to-r from-[#486A6F] to-[#4397A4]">
+    <div className="h-full bg-gradient-to-r from-[#486A6F] to-[#4397A4] -mt-20">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-white pt-24 py-40 pl-28">
         <div className="flex flex-col justify-between">
           <div className="flex flex-col gap-y-4">
