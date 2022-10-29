@@ -1,3 +1,11 @@
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+// import your icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+
+
+
 const About = () => {
   return (
     <div className="">
@@ -48,7 +56,7 @@ const About = () => {
                     <img src="/icons/Icon (23).svg" alt="" />
                   </div>
                   <div className="flex flex-col space-y-1">
-                    <p className="font-bold text-4xl text-textGray">200</p>
+                    <p className="font-bold text-4xl text-textGray flex items-center ga0-2"> <FontAwesomeIcon icon={faChevronRight} /> 200</p>
                     <p className="font-bold text-base leading-5 tracking-widest text-lightGray">
                       Number
                     </p>
@@ -59,7 +67,7 @@ const About = () => {
                     <img src="/icons/Icon (24).svg" alt="" />
                   </div>
                   <div className="flex flex-col space-y-1">
-                    <p className="font-bold text-4xl text-textGray">70</p>
+                  <p className="font-bold text-4xl text-textGray flex items-center ga0-2"> <FontAwesomeIcon icon={faChevronRight} /> 70</p>
                     <p className="font-bold text-base leading-5 tracking-widest text-lightGray">
                       Number
                     </p>
@@ -70,7 +78,7 @@ const About = () => {
                     <img src="/icons/Icon (25).svg" alt="" />
                   </div>
                   <div className="flex flex-col space-y-1">
-                    <p className="font-bold text-4xl text-textGray">20</p>
+                  <p className="font-bold text-4xl text-textGray flex items-center ga0-2"> <FontAwesomeIcon icon={faChevronRight} /> 20</p>
                     <p className="font-bold text-base leading-5 tracking-widest text-lightGray">
                       Number
                     </p>
