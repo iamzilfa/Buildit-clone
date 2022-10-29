@@ -22,7 +22,8 @@ module.exports = {
         aliceBlue: "#F4F7FF",
         textGray: "#486A6F",
         lightGray: "#678C92;",
-        blueButton: "#4397A4"
+        blueButton: "#4397A4",
+        lightBlue: "#C6DBFF"
       },
       boxShadow : { 
         blueLight: "0px 30px 60px rgba(59, 130, 246, 0.25)",

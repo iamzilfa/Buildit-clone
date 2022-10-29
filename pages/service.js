@@ -1,7 +1,8 @@
 import Link from "next/link";
-const Contact = () => {
+
+const Services = () => {
   return (
-    <div className="text-center flex flex-col items-center space-y-5">
+    <div className="text-center flex flex-col items-center space-y-5 my-40">
       <h1 className="text-7xl font-bold">Oops...</h1>
       <p className="font-semibold text-2xl">Under Construction</p>
       <p>
@@ -14,4 +15,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Services;
